@@ -33,10 +33,10 @@ public class UserService {
 		 */
 		System.out.println("Saving Test Data ----------");
 		userRepository.deleteAll();
-		userRepository.save(new User("Benito","Samuelson","1990/4/22",new Address("905 W President George Bush Hwy","Richardson","TX","U.S.A.","75080")));
-		userRepository.save(new User("Elvis","Benjamin","1991/9/3",new Address("123 6th St.","Melbourne","FL","U.S.A.","32904")));
-		userRepository.save(new User("Annison","Karen","1994/8/26",new Address("71 Pilgrim Avenue","Chevy Chase","MD","U.S.A.","20815")));
-		userRepository.save(new User("Don","Benjamin","1994/8/26",new Address("71 Pilgrim Avenue","Chevy Chase","MD","U.S.A.","20815")));
+		userRepository.save(new User("Ben","Sam","1990/4/22",new Address("905 W President George Bush Hwy","Richardson","TX","U.S.A.","75080")));
+		userRepository.save(new User("Julia","Roberts","1991/9/3",new Address("123 6th St.","Melbourne","FL","U.S.A.","32904")));
+		userRepository.save(new User("Mark","Cuban","1994/8/26",new Address("71 Pilgrim Avenue","Chevy Chase","MD","U.S.A.","20815")));
+		userRepository.save(new User("Dan","Sam","1996/8/26",new Address("71 Pilgrim Avenue","Chevy Chase","MD","U.S.A.","20815")));
 		System.out.println("End of Saving Test Data ----------");
 
 		//End of testing data
