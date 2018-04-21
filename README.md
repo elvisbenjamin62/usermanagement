@@ -21,3 +21,4 @@ Note: Update Applicaiton properties as required
 server.port=8081
 mydatabase.mongodb.address=localhost
 mydatabase.mongodb.db=mytestdb
+UserService contains insertion of test data into mongo db for testing
