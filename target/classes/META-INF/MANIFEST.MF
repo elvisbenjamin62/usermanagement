@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: usermanagement
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: elvis
+Implementation-Vendor-Id: com.user-management
+Build-Jdk: 1.8.0_151
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/usermanagement
+Created-By: Maven Integration for Eclipse
+
